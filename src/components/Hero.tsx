@@ -7,6 +7,18 @@ export const Hero = () => {
       
       <div className="container relative mx-auto px-4 text-center">
         <div className="animate-fade-in">
+          <div className="mb-6 flex justify-center">
+            <div className="h-16 w-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center animate-spin-slow">
+              <svg viewBox="-11.5 -10.23174 23 20.46348" className="h-10 w-10 text-white">
+                <circle cx="0" cy="0" r="2.05" fill="currentColor"/>
+                <g stroke="currentColor" strokeWidth="1" fill="none">
+                  <ellipse rx="11" ry="4.2"/>
+                  <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+                  <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+                </g>
+              </svg>
+            </div>
+          </div>
           <h1 className="mb-6 text-5xl font-bold leading-tight md:text-6xl">
             AI Career Advisor
           </h1>

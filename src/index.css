@@ -139,6 +139,10 @@ All colors MUST be HSL.
     animation: scaleIn 0.3s ease-out;
   }
 
+  .animate-spin-slow {
+    animation: spin 6s linear infinite;
+  }
+
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
